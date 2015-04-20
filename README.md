@@ -12,7 +12,7 @@ module a shims module b
 
 `grunt`
 
-#Last Run Produced the Following running jspm 0.15.3
+#last run produced the following results using jspm 0.15.3
 ```
 AMD Shims AMD: FAIL
 AMD Shims CJS: SUCCESS
