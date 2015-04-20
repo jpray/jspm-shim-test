@@ -7,22 +7,22 @@ System.config({
     ]
   },
   "paths": {
-    "*": "*.js",
+    "*": "lib/*.js",
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js"
   }
 });
 
-System.config({
-  "meta": {
-    "test": {
-      "deps": [
-        "lib/marionette-shim"
-      ],
-      "format": "amd" // or try AMD
-    }
-  }
-});
+// System.config({
+//   "meta": {
+//     "test": {
+//       "deps": [
+//         "lib/marionette-shim"
+//       ],
+//       //"format": "amd" // or try AMD
+//     }
+//   }
+// });
 
 System.config({
   "map": {
