@@ -64,21 +64,18 @@ System.config({
       ],
       "format": "global"
     },
-    //
-    // THROWS MIXED DEPENDENCY ERROR
-    // "b-es6-shims-amd": {
-    //   "deps": [
-    //     "a-es6-shims-amd"
-    //   ],
-    //   "format": "amd"
-    // },
-    // THROWS MIXED DEPENDENCY ERROR
-    // "b-es6-shims-cjs": {
-    //   "deps": [
-    //     "a-es6-shims-cjs"
-    //   ],
-    //   "format": "cjs"
-    // },
+    "b-es6-shims-amd": {
+      "deps": [
+        "a-es6-shims-amd"
+      ],
+      "format": "amd"
+    },
+    "b-es6-shims-cjs": {
+      "deps": [
+        "a-es6-shims-cjs"
+      ],
+      "format": "cjs"
+    },
     "b-es6-shims-es6": {
       "deps": [
         "a-es6-shims-es6"
@@ -115,7 +112,7 @@ System.config({
         "a-global-shims-global"
       ],
       "format": "global"
-    },
+    }   
   }
 });
 
