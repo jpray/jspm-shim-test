@@ -13,6 +13,7 @@ module a shims module b
 `grunt`
 
 #Last Run Produced the Following running jspm 0.15.3
+```
 AMD Shims AMD: FAIL
 AMD Shims CJS: SUCCESS
 AMD Shims ES6: FAIL
@@ -29,3 +30,4 @@ Global Shims AMD: FAIL
 Global Shims CJS: FAIL
 Global Shims ES6: FAIL
 Global Shims Global: SUCCESS
+```
